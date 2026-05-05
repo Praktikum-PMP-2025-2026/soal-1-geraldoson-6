@@ -94,7 +94,7 @@ int main (){
             }
             char bk = pop(&tmpk);
             if (!cocok(bk, msk[i])){
-                valid = 1;
+                valid = 0;
                 break;
             }
         }
