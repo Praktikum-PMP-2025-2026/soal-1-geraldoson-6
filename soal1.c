@@ -78,7 +78,6 @@ int main (){
     int valid = 1;
     Simbol* tmpk = NULL;
 
-    // Jika input kosong (EOF), program langsung mencetak VALID dan selesai
     if(scanf("%1999s", msk) != 1){
         printf("VALID\n");
         return 0;
